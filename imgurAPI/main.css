@@ -1,0 +1,16 @@
+.container {
+  position: relative;
+  margin-left: 48px;
+  margin-right: 48px;
+  max-width: none;
+  width: auto;
+}
+
+label, input {
+  display: block;
+  margin: 12px 0;
+}
+
+button {
+  margin: 12px 0;
+}
