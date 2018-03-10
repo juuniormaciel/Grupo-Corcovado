@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lista Produtos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">Corcovado</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Departamentos</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown04">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> Carrinho</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-user-circle"></i> Perfil</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-md-0">
+          <input class="form-control" type="text" placeholder="Search">
+        </form>
+      </div>
+    </nav>
+
+    <main class="container-fluid">
+      <div class="row">
+        <!-- Resumo Carrinho -->
+        <div class="col-12 d-none col-lg-3 col-xl-2 d-lg-block d-xl-block mt-3 pl-0">
+          <h4 class="pl-3">Departamentos</h4>
+          <nav class="nav flex-column">
+            <a class="nav-link nav-menu rounded-right" href="#">Cras justo odio</a>
+            <a class="nav-link nav-menu rounded-right" href="#">Dapibus ac facilisis</a>
+            <a class="nav-link nav-menu rounded-right" href="#">Morbi leo risus</a>
+            <a class="nav-link nav-menu rounded-right" href="#">Porta consectetur</a>
+            <a class="nav-link nav-menu rounded-right" href="#">Vestibulum at eros</a>
+          </nav>
+        </div>
+
+        <div class="col-12 col-lg-9 col-xl-10 pt-3">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="#">
+                  <img class="d-block w-100" src="images/bn-1.svg" alt="First slide">
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#">
+                  <img class="d-block w-100" src="images/bn-2.svg" alt="Second slide">
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#">
+                  <img class="d-block w-100" src="images/bn-3.svg" alt="Third slide">
+                </a>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+          <div class="mt-3">
+            <div class="row">
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                <div class="card">
+                  <img class="card-img-top" src="images/286x180.svg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Produto genérico 1</h5>
+                    <p class="card-text">Breve descricao do produto, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate optio ipsa commodi totam doloremque...</p>
+                    <p class="card-text h4">R$&nbsp;XXXXX,xx</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                <div class="card">
+                  <img class="card-img-top" src="images/286x180.svg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Produto genérico 1</h5>
+                    <p class="card-text">Breve descricao do produto, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate optio ipsa commodi totam doloremque...</p>
+                    <p class="card-text h4">R$&nbsp;XXXXX,xx</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                <div class="card">
+                  <img class="card-img-top" src="images/286x180.svg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Produto genérico 1</h5>
+                    <p class="card-text">Breve descricao do produto, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate optio ipsa commodi totam doloremque...</p>
+                    <p class="card-text h4">R$&nbsp;XXXXX,xx</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                <div class="card">
+                  <img class="card-img-top" src="images/286x180.svg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Produto genérico 1</h5>
+                    <p class="card-text">Breve descricao do produto, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate optio ipsa commodi totam doloremque...</p>
+                    <p class="card-text h4">R$&nbsp;XXXXX,xx</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                <div class="card">
+                  <img class="card-img-top" src="images/286x180.svg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Produto genérico 1</h5>
+                    <p class="card-text">Breve descricao do produto, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate optio ipsa commodi totam doloremque...</p>
+                    <p class="card-text h4">R$&nbsp;XXXXX,xx</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                <div class="card">
+                  <img class="card-img-top" src="images/286x180.svg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Produto genérico 1</h5>
+                    <p class="card-text">Breve descricao do produto, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate optio ipsa commodi totam doloremque...</p>
+                    <p class="card-text h4">R$&nbsp;XXXXX,xx</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                <div class="card">
+                  <img class="card-img-top" src="images/286x180.svg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Produto genérico 1</h5>
+                    <p class="card-text">Breve descricao do produto, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate optio ipsa commodi totam doloremque...</p>
+                    <p class="card-text h4">R$&nbsp;XXXXX,xx</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                <div class="card">
+                  <img class="card-img-top" src="images/286x180.svg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Produto genérico 1</h5>
+                    <p class="card-text">Breve descricao do produto, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate optio ipsa commodi totam doloremque...</p>
+                    <p class="card-text h4">R$&nbsp;XXXXX,xx</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                <div class="card">
+                  <img class="card-img-top" src="images/286x180.svg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Produto genérico 1</h5>
+                    <p class="card-text">Breve descricao do produto, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate optio ipsa commodi totam doloremque...</p>
+                    <p class="card-text h4">R$&nbsp;XXXXX,xx</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                <div class="card">
+                  <img class="card-img-top" src="images/286x180.svg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Produto genérico 1</h5>
+                    <p class="card-text">Breve descricao do produto, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate optio ipsa commodi totam doloremque...</p>
+                    <p class="card-text h4">R$&nbsp;XXXXX,xx</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                <div class="card">
+                  <img class="card-img-top" src="images/286x180.svg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Produto genérico 1</h5>
+                    <p class="card-text">Breve descricao do produto, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate optio ipsa commodi totam doloremque...</p>
+                    <p class="card-text h4">R$&nbsp;XXXXX,xx</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                <div class="card">
+                  <img class="card-img-top" src="images/286x180.svg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Produto genérico 1</h5>
+                    <p class="card-text">Breve descricao do produto, Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate optio ipsa commodi totam doloremque...</p>
+                    <p class="card-text h4">R$&nbsp;XXXXX,xx</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="container-fluid bg-footer border-top mt-3 py-2 px-5">
+      <div class="row justify-content-center">
+        <div class="col-md-4 mt-3">
+          <h6>Institucional</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Institucional</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quem Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Formas de Pagamento</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Imprensa</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 mt-3">
+          <h6>Ajuda</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Perguntas Frequentes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Política de Troca e Devolução</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Política de Privacidade</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Fale Conosco</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 mt-3">
+          <h6>Cadastro</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Meus Pedidos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Alterar Cadastro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cancelar, trocar ou devolver</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Trabalhe conosco</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-3">
+        <p>
+          Grupo Corcovado - Grupo Corcovado Comércio Eletrônico S.A. - CNPJ: 12.345.678/0001-90 - Av. Brigadeiro Luís Antônio, 3000, CEP: 01402-901 -  São Paulo/SP
+        </p>
+        <p>
+          Copyright &COPY; 1995-2018. Grupo Corcovado. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

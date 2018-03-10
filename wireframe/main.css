@@ -1,0 +1,14 @@
+/* * *KEEP* * */
+.nav-menu:hover {
+  background-color: #f7f7f9;
+}
+
+.bg-footer {
+  background-color: #f7f7f9 !important;
+}
+
+a.bg-footer:hover, a.bg-footer:focus,
+button.bg-footer:hover,
+button.bg-footer:focus {
+  background-color: #e3e3e4 !important;
+}

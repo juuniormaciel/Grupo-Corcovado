@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lista Produtos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">Corcovado</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Departamentos</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown04">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> Carrinho</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-user-circle"></i> Perfil</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-md-0">
+          <input class="form-control" type="text" placeholder="Search">
+        </form>
+      </div>
+    </nav>
+
+    <main class="container">
+      <!-- CABEÇALHO -->
+      <div class="row border-bottom mt-5">
+        <div class="col-1 d-none d-md-block"><strong>#</strong></div>
+        <div class="col"><strong>Nome</strong></div>
+        <div class="col-3 d-none d-lg-block"><strong>Quantidade</strong></div>
+        <div class="col-2"><strong>Total</strong></div>
+      </div>
+
+      <!-- Linhas de produtos -->
+      <div class="row border-bottom pt-3 pb-1 bg-light">
+        <div class="col-1 d-none d-md-block">#</div>
+        <div class="col">Produto XPTO</div>
+        <div class="col-3 d-none d-lg-block">XX</div>
+        <div class="col-2 d-flex justify-content-end">
+          <span class="d-none d-md-inline-block">R$&nbsp;</span>XXXXX,xx
+        </div>
+      </div>
+      <div class="row border-bottom pt-3 pb-1">
+        <div class="col-1 d-none d-md-block">#</div>
+        <div class="col">Produto XPTO</div>
+        <div class="col-3 d-none d-lg-block">XX</div>
+        <div class="col-2 d-flex justify-content-end">
+          <span class="d-none d-md-inline-block">R$&nbsp;</span>XXXXX,xx
+        </div>
+      </div>
+      <div class="row border-bottom pt-3 pb-1 bg-light">
+        <div class="col-1 d-none d-md-block">#</div>
+        <div class="col">Produto XPTO</div>
+        <div class="col-3 d-none d-lg-block">XX</div>
+        <div class="col-2 d-flex justify-content-end">
+          <span class="d-none d-md-inline-block">R$&nbsp;</span>XXXXX,xx
+        </div>
+      </div>
+      <div class="row border-bottom pt-3 pb-1">
+        <div class="col-1 d-none d-md-block">#</div>
+        <div class="col">Produto XPTO</div>
+        <div class="col-3 d-none d-lg-block">XX</div>
+        <div class="col-2 d-flex justify-content-end">
+          <span class="d-none d-md-inline-block">R$&nbsp;</span>XXXXX,xx
+        </div>
+      </div>
+      <div class="row border-bottom pt-3 pb-1 bg-light">
+        <div class="col-1 d-none d-md-block">#</div>
+        <div class="col">Produto XPTO</div>
+        <div class="col-3 d-none d-lg-block">XX</div>
+        <div class="col-2 d-flex justify-content-end">
+          <span class="d-none d-md-inline-block">R$&nbsp;</span>XXXXX,xx
+        </div>
+      </div>
+      <div class="row border-bottom pt-3 pb-1">
+        <div class="col-1 d-none d-md-block">#</div>
+        <div class="col">Produto XPTO</div>
+        <div class="col-3 d-none d-lg-block">XX</div>
+        <div class="col-2 d-flex justify-content-end">
+          <span class="d-none d-md-inline-block">R$&nbsp;</span>XXXXX,xx
+        </div>
+      </div>
+
+      <!-- TOTAL -->
+      <div class="row mt-4 mb-3">
+        <div class="col-2 offset-md-1"><strong>Total</strong></div>
+        <div class="col-10 col-md-9 d-flex justify-content-end"><strong>R$ XXXXX,xx</strong></div>
+      </div>
+
+      <button class="btn btn-block btn-primary">Finalizar Compra</button>
+    </main>
+
+    <footer class="container-fluid bg-footer border-top mt-3 py-2 px-5">
+      <div class="row justify-content-center">
+        <div class="col-md-4 mt-3">
+          <h6>Institucional</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Institucional</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quem Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Formas de Pagamento</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Imprensa</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 mt-3">
+          <h6>Ajuda</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Perguntas Frequentes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Política de Troca e Devolução</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Política de Privacidade</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Fale Conosco</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 mt-3">
+          <h6>Cadastro</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Meus Pedidos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Alterar Cadastro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cancelar, trocar ou devolver</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Trabalhe conosco</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-3">
+        <p>
+          Grupo Corcovado - Grupo Corcovado Comércio Eletrônico S.A. - CNPJ: 12.345.678/0001-90 - Av. Brigadeiro Luís Antônio, 3000, CEP: 01402-901 -  São Paulo/SP
+        </p>
+        <p>
+          Copyright &COPY; 1995-2018. Grupo Corcovado. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
